@@ -1,0 +1,69 @@
+/* Mobile-first approach */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+  /* primary-colors */
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+
+  /* neutral-colors */
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-head: hsla(0, 0%, 100%, 0.6);
+
+}
+
+/* CSS reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Lexend Deca', sans-serif; */
+  font-size: 0,9375rem;
+  background-color: var(--very-dark-blue);
+}
+
+.main__section .card figure img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  filter: red;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: var(--dark-desaturated-blue);
+}
+
+.cover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-desaturated-blue);
+}
+
+.card__text {
+  padding: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 376px) {
+  /* Modificar código para corresponder com o tamanho da tela */
+}
+
+@media (min-width: 1440px) {
+  /* Modificar código para corresponder com o tamanho da tela */
+}

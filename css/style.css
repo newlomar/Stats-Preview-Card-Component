@@ -29,13 +29,6 @@ body {
   background-color: var(--very-dark-blue);
 }
 
-.main__section .card .card__image figure img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%;
-  filter: red;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -46,7 +39,7 @@ body {
   background-color: var(--dark-desaturated-blue);
 }
 
-.cover-img {
+.main__section .card .card__image .cover-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,11 +51,19 @@ body {
   filter: opacity(0.5);
 }
 
-.card__image {
+.main__section .card .card__image {
   position: relative;
 }
 
-.card__text {
+.main__section .card .card__image figure img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  filter: red;
+}
+
+
+.main__section .card .card__text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,39 +73,39 @@ body {
   color: var(--white);
 }
 
-.card__text h1 {
+.main__section .card .card__text h1 {
   font-size: 25px;
   letter-spacing: 1px;
 }
 
-.card__text p {
+.main__section .card .card__text p {
   line-height: 1.7;
   color: var(--slightly-transparent-white);
 }
 
-.card__text__accent {
+.main__section .card .card__text .card__text__accent {
   color: var(--soft-violet);
 }
 
-.card__text ul {
+.main__section .card .card__text ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
   list-style-type: none;
 }
 
-.card__text ul li {
+.main__section .card .card__text ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
 
-.card__text ul li:last-child {
+.main__section .card .card__text ul li:last-child {
   text-transform: uppercase;
 }
 
-.card__text ul li h3 {
+.main__section .card .card__text ul li h3 {
   text-transform: uppercase;
   font-size: 10px;
   color: var(--slightly-transparent-white-head);
@@ -126,13 +127,33 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
   }
 
   .main__section .card .card__image {
+    height: 362px;
+    order: 2;
+    flex-basis: 45%;
+  }
+
+  .main__section .card .card__image .cover-img {
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;  
     height: 100%;
   }
 
   .main__section .card .card__image figure img {
-    height: 100%;
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 362px;
+  }
+
+  .main__section .card .card__text{
+    line-height: 1;
+    padding: 0;
   }
 }

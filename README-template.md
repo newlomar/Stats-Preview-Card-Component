@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screeshot-Mobile](./stats-preview-card-component-Mobile.png)
-![Screenshot-Desktop](./stats-preview-card-component-desktop.png)
+![Screeshot-Mobile](./stats-preview-card-component-Mobile.PNG)
+![Screenshot-Desktop](./stats-preview-card-component-desktop.PNG)
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 

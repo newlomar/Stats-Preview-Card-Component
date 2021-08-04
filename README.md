@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-basic-html-and-css-RmbW5XUtO)
-- Live Site URL: [Add live site URL here](https://fervent-bose-62a427.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-basic-html-and-css-RmbW5XUtO)
+- [Live Site URL](https://fervent-bose-62a427.netlify.app/)
 
 ### Built with
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/NewLomar)
-- Twitter - [@yourusername](https://twitter.com/lomar_newton)
+- Frontend Mentor - [@NewLomar](https://www.frontendmentor.io/profile/NewLomar)
+- Twitter - [@lomar_newton](https://twitter.com/lomar_newton)

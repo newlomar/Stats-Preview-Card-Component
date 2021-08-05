@@ -29,14 +29,24 @@ body {
   background-color: var(--very-dark-blue);
 }
 
+main {
+  /* height: calc(100vh - 20px); */
+  min-height: calc(100vh - 20px);
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 30px;
+  /* align-items: center;
+  margin: 30px; */
+  max-width: 30rem;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   background-color: var(--dark-desaturated-blue);
+}
+
+.main__section {
+  padding: 1.5rem;
 }
 
 .main__section .card .card__image .cover-img {
@@ -59,7 +69,7 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
-  filter: red;
+  object-fit: cover;
 }
 
 
@@ -69,7 +79,9 @@ body {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding: 20px;
+  /* align-items: center; */
+  /* padding: 20px; */
+  padding: 2rem;
   color: var(--white);
 }
 
@@ -80,6 +92,7 @@ body {
 
 .main__section .card .card__text p {
   line-height: 1.7;
+  margin-bottom: auto;
   color: var(--slightly-transparent-white);
 }
 
@@ -107,7 +120,12 @@ body {
 
 .main__section .card .card__text ul li h3 {
   text-transform: uppercase;
-  font-size: 10px;
+  /* font-size: 10px; */
+  font-size: 0.9375rem;
+  /* note: remove these h3s; */
+  /* note: 10px is way too small for text; */
+  letter-spacing: 0.075em;
+  /* // note: is font family and weight correct on this?; */
   color: var(--slightly-transparent-white-head);
 }
 
@@ -121,7 +139,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 20px);
   }
 
   .card {
@@ -129,8 +146,9 @@ body {
     margin-bottom: 0;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 0px 250px;
+    /* align-items: center;
+    margin: 0px 250px; */
+    max-width: 58rem;
   }
 
   .main__section .card .card__image {
@@ -156,7 +174,8 @@ body {
   .main__section .card .card__text {
     line-height: 1;
     text-align: left;
-    padding: 0px 140px 0px 50px;
+    /* padding: 0px 140px 0px 50px; */
+    padding: 3rem;
   }
 
   .main__section .card .card__text h1 {
@@ -165,7 +184,7 @@ body {
   }
 
   .main__section .card .card__text p {
-    line-height: 1.4;
+    /* line-height: 1.4; */
   }
   
   .main__section .card .card__text ul {

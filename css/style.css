@@ -152,7 +152,7 @@ main {
   }
 
   .main__section .card .card__image {
-    height: 370px;
+    height: 375px;
     order: 2;
     flex-basis: 120%;
   }
@@ -168,7 +168,7 @@ main {
     border-radius: 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 370px;
+    height: 375px;
   }
 
   .main__section .card .card__text {

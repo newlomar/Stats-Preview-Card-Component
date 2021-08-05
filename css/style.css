@@ -134,11 +134,16 @@ main {
   /* edit if necessary */
 }
 
-@media (min-width: 992px) {
+@media (min-width: 545px) {
   main {
     display: flex;
-    align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    align-items: center;
   }
 
   .card {
@@ -181,10 +186,6 @@ main {
   .main__section .card .card__text h1 {
     font-size: 32px;
     width: 100%;
-  }
-
-  .main__section .card .card__text p {
-    /* line-height: 1.4; */
   }
   
   .main__section .card .card__text ul {

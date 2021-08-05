@@ -129,6 +129,10 @@ main {
   color: var(--slightly-transparent-white-head);
 }
 
+.hidden {
+  display: none;
+}
+
 /* Media Queries */
 @media (min-width: 376px) {
   /* edit if necessary */

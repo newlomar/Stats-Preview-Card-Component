@@ -93,6 +93,7 @@ main {
 .main__section .card .card__text p {
   line-height: 1.7;
   margin-bottom: auto;
+  font-size: 0.875rem;
   color: var(--slightly-transparent-white);
 }
 
@@ -118,15 +119,16 @@ main {
   text-transform: uppercase;
 }
 
-.main__section .card .card__text ul li h3 {
+.main__section .card .card__text ul li strong {
+  font-size: 1.5rem;
+}
+
+.main__section .card .card__text ul li span {
   text-transform: uppercase;
-  /* font-size: 10px; */
   font-size: 0.9375rem;
-  /* note: remove these h3s; */
-  /* note: 10px is way too small for text; */
   letter-spacing: 0.075em;
-  /* // note: is font family and weight correct on this?; */
   color: var(--slightly-transparent-white-head);
+  font-weight: 700;
 }
 
 .hidden {
@@ -200,4 +202,7 @@ main {
     margin-top: 30px;
   }
 
+  .main__section .card .card__text ul li strong {
+    align-self: flex-start;
+  }
 }

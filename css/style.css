@@ -65,7 +65,7 @@ main {
   position: relative;
 }
 
-.main__section .card .card__image figure img {
+.main__section .card .card__image img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
@@ -175,7 +175,7 @@ main {
     height: 100%;
   }
 
-  .main__section .card .card__image figure img {
+  .main__section .card .card__image img {
     border-radius: 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
